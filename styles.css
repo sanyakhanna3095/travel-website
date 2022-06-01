@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+  }  
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+	background-image: url(janpic/Unknown-4.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+#detail{
+    background-image: url(janpic/Unknown-5.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    box-shadow: 5px 10px 15px black;
+    border-radius: 25px;
+    height: 35vh;
+    width: 35vw;
+    
+}
+#username{float: left;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 2vh;
+}
+#Password{float: left;
+	width: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 2vh;
+}
+#Country{float: left;
+	width: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 2vh
+}
+#signup{
+    float:right;
+    margin:2px;
+}
+ input:focus{
+     outline: none;
+}
+#cd{
+
+    animation: beeps 10s linear  infinite ;
+}
+
+@keyframes beeps{
+   0% {
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100% {
+    transform: rotate(360deg);}
+}
+@media(max-width: 679px){
+body img{
+    height: 50px;
+}
+}
