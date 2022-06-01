@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style1.css">
+        <title>Barefoot Wanderers</title>
+        <link rel="icon" type="image/x-icon" href="/janpic/favicon.ico">
+      <style>
+          /*Two unequal columns floating side by side*/
+          /*Left column*/
+          .leftcolumn{
+              float:right;
+              width: 90%;
+          }
+          /*Right column*/
+          .rightcolumn{
+              float: right;
+              width: 90%;
+              background-color: wheat;
+              padding-left: 20px;
+          }
+          /* image*/
+          .image{
+              background-color: thistle;
+              width: 100%;
+              padding:20px;
+          }
+          /*card effect*/
+          .card{
+              background-color: white;
+              padding:20px;
+              margin-top: 20px;
+          }
+          .row::after {
+              content: "";
+              display: table;
+              clear: both;
+          }
+          @media screen and (max-width:800px){
+          .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+      </style>
+    </head>
+  <body>
+      
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="job.html">Jobs</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!--javascript for responsive navbar-->
+      <script src="content.js">
+</script>
+ <div class="leftcolumn">
+     <div class="card">
+        <h1 style="color: yellowgreen; text-align: center;"><i>Jobs</i></h1>
+     <div class="image" style="width: 90%; height: 90%;"><img src="janpic/Unknown-1.jpeg">Start your career here with us</div> 
+
+    <p>An emerging travel analytics and technology start-up working on a cutting edge B2B travel intelligence application BW.com.
+
+        The company is co-founded by two ex-KPMG consultants; one of the co-founders has experience in travel space for 8 years and second has been an IT consultant for 11 years. We are foraying into the travel technology domain aiming to disrupt the Holiday travel market globally.
+        
+        Barefoot Wanderers is looking for people in the technology and sales teams.
+        
+        Selection Process:
+        Interested candidates need to apply for below positions by clicking on the profile and filling the form on the next page along with details of their prior experience or projects (incl. academic projects) along with sufficient details such as technologies used etc.
+        
+        Candidates CV file should also include a ‘Statement of Purpose’ for a maximum of 500 words answering the following:
+        
+        Why do you want to join us
+        Why should we select you
+        What is your life objective
+        Shortlisted candidates will move to round 2:
+        
+        Round 2 for technology team will consist of attempting a real life coding challenge followed by a Face to Face interview
+        Round 2 for Sales team will consist of a Face to Face interview and a role play involving a sales call</p>
+        </div>
+    </div>
+<!--footer-->
+<div class="footer"><p><a href="index.html">Home</a>| <a href="about.html">About Us</a> | <a href="contact.html">Contact</a> | <a href="job.html">Job</a></p></div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="content.css">
+        <title>Barefoot Wanderers</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1><b><em>Barefoot Wanderers</em></b></h1>
+          </div>
+      <div class="topnav" id="myTopnav">
+          <a href="content.html">Explore Destination</a>
+          <a href="plan.html">Planner</a>
+          <a href="explore.html">Ideas</a>
+          <a href="faq.html">Query</a>
+          <a href="index.html">Logout</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <!--javascript for responsive navbar-->
+        <script src="content.js">
+  </script>
+          <section class="home">
+              <video  autoplay muted loop id="Myvideo"><source src="videos/v1.mp4" type="video/mp4"></video>
+            <div class="content">
+              <h1>Travel <br><span>Pleasure</span></h1>
+              <p><b>As the power of the Internet enables people to know about any new place at the click of a button, instantly look up and book travel related services (Hotels, Cabs etc.); the travel industry is grappling with the rise of this Silent traveller. How does the travel agent fraternity add value in this age of the empowered customer - the silent traveler? Can it provide services quick speed and agility of online portals, while retaining the personalized touch of services? Barefoot Wanderers' mission is to enable the fraternity with its tools to do exactly this!</b></p>
+              <button onclick="document.location='plan.html'" style="width:auto;">Start Planning</button>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="slider-nav">
+                <div class="nav-btn active">></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+            </div>
+         </section>
+   <!-- javascript for responsive navigation menu on landing page-->
+   <script type="text/javascript">
+       const menuBtn=document.querySelector(".menu-btn", () => {
+           menuBtn.classList.toggle("active");
+       });
+
+       menuBtn.addEventListener("click")
+   </script>
+
+    </body>
+    
+</html>

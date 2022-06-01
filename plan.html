@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
+        <link rel="stylesheet" href="plan.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1><b><em>Barefoot Wanderers</em></b></h1>
+          </div>
+      <div class="topnav" id="myTopnav">
+          <a href="content.html">Explore Destination</a>
+          <a href="plan.html">Planner</a>
+          <a href="explore.html">Ideas</a>
+          <a href="faq.html">Query</a>
+          <a href="index.html">Logout</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <!--javascript for responsive navbar-->
+        <script src="content.js">
+            </script>
+        <section class="home" id="home">
+            <div class="video-area">
+            <video src="videos/v.mp4" muted loop autoplay></video>
+            </div>
+
+        <div class="content">
+            <h1>Plan your trip</h1>
+            <h3>It's time to travel</h3>
+
+            <div class="form-container">
+                <form action="">
+                    <h3>Search your Destination</h3>
+
+                    <span><b>location</b></span><br>
+                    <input type="text" placeholder="City/Country/State"><br>
+                    <span><b>Members</b></span><br>
+                    <input type="number" placeholder="Travellers"><br>
+                    <span><b>Arrival</b></span><br>
+                    <input type="date"><br>
+                    <span><b>Departure</b></span><br>
+                    <input type="date"><br>
+                    <a href="payment.html">
+                    <button  type="button" class="btn"  ><b>Buy</b></button></a>
+                </form>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>
